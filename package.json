@@ -1,0 +1,32 @@
+{
+  "name": "ts-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "nodemon -x ts-node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meanagha/ts-mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meanagha/ts-mongo/issues"
+  },
+  "homepage": "https://github.com/meanagha/ts-mongo#readme",
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "@types/mongoose": "^5.10.3",
+    "@types/nodemon": "^1.19.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
